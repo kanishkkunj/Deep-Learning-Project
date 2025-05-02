@@ -1,7 +1,3 @@
-# Topic Difficulty Recommender for Teachers
-
-A deep learning-based web application that helps teachers estimate the difficulty level of academic topics based on various factors.
-
 ## Overview
 
 This application uses a dual-input neural network model to predict how difficult students might find a particular topic. The system analyzes both the text description of the topic and quantifiable features like abstraction level, prerequisites, content volume, and conceptual complexity.
