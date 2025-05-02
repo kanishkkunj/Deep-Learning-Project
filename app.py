@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 import os
 import pickle
 
-# Import from our utility modules
+
 from data_utils import (
     generate_synthetic_data, preprocess_text, preprocess_numerical,
     save_preprocessors, load_preprocessors
@@ -19,7 +19,7 @@ from model import (
     plot_training_history, plot_factor_contribution
 )
 
-# Set page configuration
+
 st.set_page_config(
     page_title="Topic Difficulty Recommender",
     page_icon="📚",
