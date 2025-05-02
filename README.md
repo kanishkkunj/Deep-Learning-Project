@@ -21,42 +21,7 @@ This application uses a dual-input neural network model to predict how difficult
 - **Dense Layers with Dropout**: For feature extraction and regularization
 - **Regression Output**: Linear activation for predicting difficulty score
 
-## Installation
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/topic-difficulty-recommender.git
-   cd topic-difficulty-recommender
-   ```
-
-2. Create a virtual environment (optional but recommended):
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Run the Streamlit app:
-   ```
-   streamlit run app.py
-   ```
-
-2. Open your web browser and go to `http://localhost:8501`
-
-3. Fill in the details about your topic and click "Predict Difficulty"
-
-## Project Structure
-
-- `app.py`: Main Streamlit application
-- `model.py`: Neural network architecture and training functions
-- `data_utils.py`: Data generation and preprocessing utilities
-- `requirements.txt`: Project dependencies
 
 ## Future Improvements
 
@@ -65,10 +30,3 @@ This application uses a dual-input neural network model to predict how difficult
 - Implement user accounts to save previous topic analyses
 - Add batch processing for multiple topics
 
-## License
-
-MIT
-
-## Acknowledgements
-
-This project was created as part of a college deep learning course.
